@@ -97,7 +97,7 @@ const List<String> pairsList = [
 ];
 
 const apiUrl = 'http://api.exchangeratesapi.io/v1/latest';
-const apiKey = 'b3322df321fb0cc658a71d9cffd795bd';
+const apiKey = ''; //Put your own key
 
 // http://api.exchangeratesapi.io/v1/latest?access_key=b3322df321fb0cc658a71d9cffd795bd&base=GBP&symbols=USD
 
