@@ -1,16 +1,13 @@
-# position_size_calculator
+# Position Size Calculator
 
-A new Flutter project.
+Simple app to calculate position size for Forex traders. It is connected to an API that will fetch real time exchange rate in order to provide precise calculation.
 
-## Getting Started
+![Position%20Size%20Calculator%2062208a7974104a81a6d9d219d22e0b4e/Screenshot_1619467793.png](Position%20Size%20Calculator%2062208a7974104a81a6d9d219d22e0b4e/Screenshot_1619467793.png)
 
-This project is a starting point for a Flutter application.
+# How to use it
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- git clone
+- flutter clean
+- flutter pub get
+- go to the ./lib/data/data.dart and insert your API key that you got from "exchangeratesapi"
+- flutter run
